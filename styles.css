@@ -76,15 +76,25 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 250px;
+    padding-top: 100px;
     margin-top: 80px;
     position: relative; /* Це важливо для розміщення блоків поверх */
-    background-image: url('img/1.avif');
-    background-size: cover; /* Це забезпечує, що зображення покриє весь блок */
+    background-image: url('img/dock_levelers_with_dock_seals_cover_image_01.jpg');
+    background-size: cover;
     background-position: center; /* Центрує зображення */
     background-repeat: no-repeat; /* Зображення не повторюється */
     width: 100%;
    
+}
+#mainSlide::before {
+    content: ''; /* Потрібно для створення псевдоелемента */
+    position: absolute; /* Для того, щоб перекрити зображення */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Прозорий темний фон */
+    z-index: -1;
 }
 #searchBtn {
     all: unset;
@@ -129,6 +139,7 @@ header {
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
+    font-size: 13px;
 }
 #secondHead li{
     cursor: pointer;
