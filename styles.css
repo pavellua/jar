@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    
+    font-family: "Montserrat", serif;
+    height: 3000px;
+    background-color: bisque;
+    
+}
+#campaignLogo{
+    width: 512px;
+    height: 197px;
+    background-color: rgba(255, 255, 255, 0.7);
+   
+    border-radius: 20px;
+}
+#clearSearchBtn{
+    all: unset;
+    position: absolute;
+    right: 5%;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+   
+}
+#clearSearchBtn svg{
+    
+    width:  7px;
+    border-radius: 50%;
+    background-color: #dadada;
+    padding: 4px;
+   
+}
+
+#contactHead {
+    display: flex;
+    flex-direction: column;
+}
+#contactHead span {
+    margin: 5px;
+    font-size: 14px;
+}
+#companyTheme {
+    font-size: 55px;
+    font-weight:450;
+    color: #ffffff;
+    width: 900px;
+    text-align: center;
+    margin-top: 70px;
+}
+#firstHead {
+    display: flex;
+    width: 838px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+header {
+    top:0;
+    z-index: 3;
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    width: 100%;
+    color: #949494;
+    font-family: "Montserrat", serif;
+    border-bottom: 3px solid #949494;
+}
+#mainSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    margin-top: 80px;
+    position: relative; /* Це важливо для розміщення блоків поверх */
+    background-image: url('img/1.avif');
+    background-size: cover; /* Це забезпечує, що зображення покриє весь блок */
+    background-position: center; /* Центрує зображення */
+    background-repeat: no-repeat; /* Зображення не повторюється */
+    width: 100%;
+   
+}
+#searchBtn {
+    all: unset;
+    width: 39px;
+   
+    background-color: #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#searchForm {
+    display: flex;
+    height: 34px;
+    width: 259px;
+}
+#searchForm input{
+    width: 100%;
+   padding: 8px 9px;
+    border: 1px solid #5e5e5e;
+    font-family: "Montserrat", serif;
+}
+#searchBtn svg{
+    width: 14px;
+    height: 14px;
+    fill: #ffffff; /* Синій колір */
+}
+#searchInput{
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+#secondHead{
+    width: 838px;
+}
+
+#secondHead ul{
+    list-style: none; /* Вимикає маркери списку */
+    padding: 0; /* Видаляє відступи зліва */
+    margin: 0; /* Видаляє зовнішні відступи */
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+#secondHead li{
+    cursor: pointer;
+}
+.selectedSection {
+    color: #eb3f3f;
+}
+
+
+#qualityMarks {
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
