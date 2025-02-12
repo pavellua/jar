@@ -8,13 +8,25 @@ body {
 }
 #aboutCompany {
     display: flex;
-    padding-top: 30px;
+    
    
+}
+#askQuestionBtn {
+    border: none;
+    width: 252px;
+    height: 67px;
+    background-color: #eb3f3f;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
 #backgroundImgSupport {
     position: absolute;
     z-index: -1;
     opacity: 0.2;
+    
 }
 #campaignLogo{
     width: 512px;
@@ -60,6 +72,7 @@ body {
     align-items: center;
 }
 #companySupport {
+    overflow: hidden;
     position: relative;
     width: 50%;
     display: flex;
@@ -124,6 +137,37 @@ header {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.9); /* Прозорий темний фон */
     z-index: -1;
+}
+.prodAndServContainer {
+    width: 552px;
+    height: 351px;
+    border: 1px solid #000;
+    margin-bottom: 13px;
+    position: relative;
+}
+.prodAndServContainer button{
+    border: none;
+    width: 210px;
+    height: 51px;
+    background-color: #eb3f3f;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+}
+.prodAndServContainer img{
+    position: absolute;
+    z-index: -1;
+}
+.prodAndServContainer span{
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    background-color: rgba(148, 148, 148, 0.5);
+    text-align: center;
+    margin: 84px 0 55px;
 }
 #searchBtn {
     all: unset;
