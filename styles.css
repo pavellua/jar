@@ -1,9 +1,13 @@
+a {
+    all: unset;
+    cursor: pointer;
+}
 body {
     margin: 0px;
     
     font-family: "Montserrat", serif;
     height: 3000px;
-    background-color: #f7f7f7;
+    
     
 }
 #aboutCompany {
@@ -11,17 +15,7 @@ body {
     
    
 }
-#askQuestionBtn {
-    border: none;
-    width: 252px;
-    height: 67px;
-    background-color: #eb3f3f;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    cursor: pointer;
-    
-}
+
 #backgroundImgSupport {
     position: absolute;
     z-index: -1;
@@ -87,6 +81,25 @@ body {
     text-align: center;
     margin-top: 70px;
 }
+.completeSolutionContainers {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 167px; 
+    align-items: center;
+    margin: 0 15px;
+}
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 691px;
+    
+}
+#feedbackForm input{
+    height: 24px;
+    padding-left: 10px;
+    font-family: "Montserrat", serif;
+}
 #firstHead {
     display: flex;
     width: 838px;
@@ -97,6 +110,7 @@ body {
 
 .fontSizeHeadLine {
     font-size: 44px;
+    color: #1e2d3b;
 }
 header {
     top:0;
@@ -113,6 +127,16 @@ header {
     color: #949494;
     font-family: "Montserrat", serif;
     border-bottom: 3px solid #949494;
+}
+.mainBtn {
+    border: none;
+    width: 252px;
+    height: 67px;
+    background-color: #eb3f3f;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
 }
 #mainSlide {
     display: flex;
@@ -138,6 +162,22 @@ header {
     background-color: rgba(0, 0, 0, 0.9); /* Прозорий темний фон */
     z-index: -1;
 }
+.newsContainer {
+    max-width: 631px;
+    flex: 1 1 500px;
+    height: 612px;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    overflow: hidden;
+    
+}
+.newsContainer a{
+    padding: 28px 16px 25px 16px;
+    font-size: 22px;
+}
+.newsContainer a{
+    display: block;
+    color: #3b3a3a;
+}
 .prodAndServContainer {
     width: 552px;
     height: 351px;
@@ -162,10 +202,12 @@ header {
     z-index: -1;
 }
 .prodAndServContainer span{
+    padding-top: 20px;
     display: block;
+    height: 108px;
     font-size: 40px;
     color: #fff;
-    background-color: rgba(148, 148, 148, 0.5);
+    background-color: rgba(148, 148, 148, 0.6);
     text-align: center;
     margin: 84px 0 55px;
 }
@@ -224,7 +266,11 @@ header {
 
 #qualityMarks {
     margin-top: 100px;
-    height: 200px;
+    height: 109px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
+    
+}
+#qualityMarks {
+    max-height: 100px;
 }
