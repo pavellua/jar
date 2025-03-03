@@ -184,8 +184,12 @@ header {
     border: 1px solid #000;
     margin-bottom: 13px;
     position: relative;
+    overflow: hidden;
 }
-.prodAndServContainer button{
+.prodAndServContainer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     width: 210px;
     height: 51px;
