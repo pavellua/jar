@@ -1,0 +1,26 @@
+
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+body {
+    margin: 0px;
+    
+    font-family: "Montserrat", serif;
+  
+    
+    
+}
+.fontSizeHeadLine {
+    font-size: 44px;
+    color: #1e2d3b;
+}
+.groupDescription p {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px auto;
+    width: 60%;
+    color: #3b3a3a;
+    line-height: 1.7;
+}
